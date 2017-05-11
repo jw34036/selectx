@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile 'io.vertx:vertx-core:3.4.1'
+    // Use JUnit test framework
+    testCompile 'junit:junit:4.12'
+}
+
